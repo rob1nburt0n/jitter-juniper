@@ -44,7 +44,7 @@ namespace Jitter.Tests.Models
                 new Jot { Content = "blah!"},
                 new Jot { Content = "blah part 2!"}
             };
-            JitterUser a_user = new JitterUser { Handle = "adam1", Jots = list_of_jots};
+            JitterUser a_user = new JitterUser { Handle = "adam1", Jots = list_of_jots };
             // Act
             List<Jot> actual_jots = a_user.Jots;
             // Assert
